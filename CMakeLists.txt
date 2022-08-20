@@ -26,7 +26,7 @@ FetchContent_MakeAvailable(fmtlib)
 
 function(add_code name)
     add_executable(${name} ${name}.cpp)
-    target_link_libraries(${name} tbb fmt)
+    target_link_libraries(${name} tbb fmt::fmt)
 endfunction()
 
 function(add_cuda_code name)
