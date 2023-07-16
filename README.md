@@ -4,6 +4,7 @@ Instructions for Linux:
 
 ```
 git clone https://github.com/DarkStar1997/CUDATests
+cd CUDATests
 mkdir build
 cd build
 cmake ..
